@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local tooling
+.claude/
+
+# Secrets and local overrides
+.env
+.env.*
+*.local
+
+# Runtime data and generated artifacts
+data/*
+!data/.gitkeep
+cache/*
+!cache/.gitkeep
+models/*
+!models/.gitkeep
+logs/*
+!logs/.gitkeep
+llm/*
+!llm/.gitkeep
+mlruns/*
+!mlruns/.gitkeep
+nocommit/
+
+# Common model and cache formats
+*.pkl
+*.cbm
+*.safetensors
+*.npy
+*.log

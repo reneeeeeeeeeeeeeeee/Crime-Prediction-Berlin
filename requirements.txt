@@ -1,0 +1,28 @@
+# Core
+pandas>=2.2.0
+numpy>=1.26.0
+openpyxl>=3.1.0
+tqdm>=4.66.0
+
+# ML
+lightgbm>=4.3.0
+scikit-learn>=1.4.0
+catboost>=1.2.0
+mlforecast>=1.0.0
+optuna>=4.0.0
+mlflow>=3.0.0
+
+# NLP / Transformers
+torch>=2.2.0
+transformers>=4.40.0
+accelerate>=0.28.0
+sentence-transformers>=2.7.0
+
+# Visualisierung + App
+streamlit>=1.32.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Notebook (optional)
+jupyter>=1.0.0
+ipykernel>=6.29.0
