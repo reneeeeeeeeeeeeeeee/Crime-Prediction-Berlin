@@ -222,7 +222,7 @@ Die Artefakte entstehen durch Schritt 3 oder koennen aus einem vorhandenen lokal
 
 #### Streamlit-Apps
 
-Die Streamlit-App `src/5b_app_topk.py` ist die explorative Analyseoberflaeche fuer das Ranking-Modell. Sie zeigt fuer ein Ziel-Datum die V2/V3-Prognosen in `absolute` und `lift`, fasst Modellkennzahlen zusammen und macht die wichtigsten Bezirke, Kategorien und Zeitfenster direkt im Repo-Kontext nachvollziehbar.
+Die Streamlit-App `src/5b_app_topk.py` ist die explorative Analyseoberflaeche fuer das Ranking-Modell. Sie zeigt fuer ein Ziel-Datum die V3-Prognosen in `absolute` und `lift`, fasst Modellkennzahlen zusammen und macht die wichtigsten Bezirke, Kategorien und Zeitfenster direkt im Repo-Kontext nachvollziehbar.
 
 ```powershell
 streamlit run src/5b_app_topk.py
